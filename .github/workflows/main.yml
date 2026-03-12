@@ -29,7 +29,7 @@ jobs:
         run: npx clawhub@latest install verified-agent-identity
 
       - name: Install script dependencies
-        run:
+        run: |
           cd scripts
           npm install
 
